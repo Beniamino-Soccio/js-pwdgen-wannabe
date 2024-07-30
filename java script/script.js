@@ -30,7 +30,13 @@ const favColor = prompt('inserisci il tuo colore preferito', 'blu')
 console.log(favColor, typeof favColor);
 
 //creo la password e la "stampo" nella console
-const creationPassword = firstName + lastName + favColor + passwordNumbers
-console.log(creationPassword, typeof creationPassword)
+const creationPassword = firstName + lastName + favColor + passwordNumbers;
+console.log(creationPassword, typeof creationPassword);
 
 //BONUS
+//Recuperare gli elementi che mi interessano dal DOM
+const passwordElement = document.getElementById('password');
+console.log(passwordElement);
+
+//stampo la password anche nell'elemento del DOM
+passwordElement.innerText = 'La tua Pasword è ' + creationPassword;
