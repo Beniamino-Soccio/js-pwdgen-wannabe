@@ -6,7 +6,7 @@
 3.chiedere il nome all'utente
 4.chiedere il suo cognome
 5.chiedere il suo colore preferito
-6. stampo nella console la password
+6.creo la password e la "stampo" nella console
 7.BONUS: stampo la password anche nell'elemento del DOM
 */
 
@@ -24,3 +24,10 @@ console.log(firstName, typeof firstName);
 const lastName = prompt('inserisci il tuo nome', 'Soccio');
 console.log(lastName, typeof lastName);
 
+//chiedere il colore preferito dell'utente
+const favColor = prompt('inserisci il tuo colore preferito', 'blu')
+console.log(favColor, typeof favColor);
+
+//creo la password e la "stampo" nella console
+const password = firstName + lastName + favColor + passwordNumbers
+console.log(password, typeof password)
