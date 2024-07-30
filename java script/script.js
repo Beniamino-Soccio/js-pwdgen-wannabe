@@ -1,13 +1,14 @@
 // traccia: chiedere all'utente il nome, il cognome, il suo colore preferito e stampare in console il tutto
 
 /* Analisi dei passaggi
-1.Recuperare gli elementi che mi interessano dal DOM (in questo caso solo durante il BONUS prima di inserire il risultato nell'elemento del DOM)
-2.preparo eventuali variabili da tenere in considerazione fin da subito
-3.chiedere il nome all'utente
-4.chiedere il suo cognome
-5.chiedere il suo colore preferito
-6.creo la password e la "stampo" nella console
-7.BONUS: stampo la password anche nell'elemento del DOM
+1.preparo eventuali variabili da tenere in considerazione fin da subito
+2.chiedere il nome all'utente
+3.chiedere il suo cognome
+4.chiedere il suo colore preferito
+5.creo la password e la "stampo" nella console
+6.BONUS: 
+6a.Recuperare gli elementi che mi interessano dal DOM
+6b.stampo la password anche nell'elemento del DOM
 */
 
 // prova collegamento file .js
@@ -29,5 +30,7 @@ const favColor = prompt('inserisci il tuo colore preferito', 'blu')
 console.log(favColor, typeof favColor);
 
 //creo la password e la "stampo" nella console
-const password = firstName + lastName + favColor + passwordNumbers
-console.log(password, typeof password)
+const creationPassword = firstName + lastName + favColor + passwordNumbers
+console.log(creationPassword, typeof creationPassword)
+
+//BONUS
