@@ -17,5 +17,10 @@ console.log('JS OK')
 const passwordNumbers = '21'; // perchè ho pensato che il numero 21 sia stato prefissato che fosse quello.
 
 //chiedere il nome all'utente
-const nameUser = prompt('inserisci il tuo nome', 'Beniamino');
-console.log(nameUser, typeof nameUser);
+const firstName = prompt('inserisci il tuo nome', 'Beniamino');
+console.log(firstName, typeof firstName);
+
+//chiedere il cognome all'utente
+const lastName = prompt('inserisci il tuo nome', 'Soccio');
+console.log(lastName, typeof lastName);
+
