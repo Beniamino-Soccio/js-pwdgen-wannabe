@@ -15,3 +15,7 @@ console.log('JS OK')
 
 //preparo eventuali variabili da tenere in considerazione fin da subito
 const passwordNumbers = '21'; // perchè ho pensato che il numero 21 sia stato prefissato che fosse quello.
+
+//chiedere il nome all'utente
+const nameUser = prompt('inserisci il tuo nome', 'Beniamino');
+console.log(nameUser, typeof nameUser);
